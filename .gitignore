@@ -1,0 +1,19 @@
+# 从 DSH 安装包里提取出来的官方源码——不是本项目的代码，绝不入库。
+# 它们由 shell-patch/patch-asar.mjs refresh 在本地按你自己的 DSH 版本重新生成。
+shell-patch/pristine/
+shell-patch/ref/
+
+# 补丁产物：app.asar.patched 与本机 app.asar 同量级（约 182 MB），且只对生成它的那个版本有效。
+shell-patch/app.asar.patched
+shell-patch/backup-info.json
+
+# 运行期状态（计划任务执行者用）
+shell-patch/*.lock
+shell-patch/*.cancel
+shell-patch/*.log
+
+# 打包产物
+dist/
+*.zip
+_test/
+_dist_test/

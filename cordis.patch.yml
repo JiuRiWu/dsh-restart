@@ -1,0 +1,6 @@
+# dsh-restart bundle 层：把本包插进 web 插件名册。
+# 宿主半边（index.js）是空 apply；真正的按钮在浏览器半边（client.js），
+# 通过 dsh.client 段随 web 前端一起加载。
+- insert:
+    - id: dsh-restart
+      name: dsh-restart
