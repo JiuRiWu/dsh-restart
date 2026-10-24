@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Restart Button",
+    "description": "Adds a Restart button to the sidebar footer: it reuses the tray's own native confirmation and orderly shutdown, then relaunches once the old process has fully exited. Requires the matching shell patch (shell-patch)."
+  }
+}

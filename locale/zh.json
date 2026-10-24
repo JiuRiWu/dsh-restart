@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "重启按钮",
+    "description": "在侧边栏底部加一个「重启」按钮：复用托盘「退出 DeepSeek Harness」的原生确认框与优雅关闭，旧进程完全退出后重新拉起。需要配套的外壳补丁（shell-patch）。"
+  }
+}
